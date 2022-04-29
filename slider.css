@@ -1,0 +1,171 @@
+
+#opis
+{
+  position: absolute;
+  width: 260px;
+  height: 156px;
+  left: 0px;
+  top: 140px;
+  font-family: 'SourceSansPro';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.2px;
+  color: #484A4C;
+}
+
+#naslov
+{
+  position: absolute;
+  width: 300.93px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+  font-family: 'SourceSansPro';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.2px;
+
+  color: #134880;
+}
+
+footer
+{
+  position: absolute;
+  width: 941px;
+  height: 100px;
+  right: 489px;
+  bottom: 0px;
+}
+
+#boxF
+{
+  position: absolute;
+  width: 941px;
+  height: 100px;
+  left: 0px;
+  top: 100px;
+  background-color: #DDDDDD;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#textF
+{
+  position: absolute;
+  width: 245px;
+  height: 18px;
+  left: 81px;
+  top: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.heder
+{
+  position: absolute;
+  width: 941px;
+  height: 100px;
+  right: 489px;
+  top: 0px;
+}
+
+#box1
+{
+  float: left;
+  width: 301px;
+  height: 100px;
+  background-color: #DDDDDD;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#box2
+{
+  margin-left: 19px;
+  float: left;
+  width: 621px;
+  height: 100px;
+  background-color: #DDDDDD;
+  border-radius: 0px 0px 5px 5px;
+  text-align: center;
+}
+
+#text
+{
+  position: absolute;
+  width: 245px;
+  height: 18px;
+  left: 400px;
+  top: 39px; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.wrapper
+{
+  margin: 250px auto auto 0;
+  width: 1550px;
+  /*background-color: bisque;*/
+}
+
+#left 
+{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+  
+#top 
+{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-wrap: wrap;
+  transform: translateX(0);
+  transition: transform 0.25s;
+    
+}
+  
+.slide > img 
+{
+  border-radius: 5px;
+  padding: 3px;
+  height: 200px;
+  width: auto;
+}
+
+#next
+{
+  width: 60px;
+  height: 60px;
+  left: 60px;
+  top: 0px;
+  border: 1px solid #134880;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#prev
+{
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #134880;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
